@@ -1,3 +1,7 @@
-//
-// Created by Kane on 2023/12/10.
-//
+#include <gtest/gtest.h>
+
+int main(int argc, char **argv) {
+  ::testing::InitGoogleTest();
+  return RUN_ALL_TESTS();
+}
+
