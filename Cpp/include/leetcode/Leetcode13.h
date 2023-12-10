@@ -1,12 +1,11 @@
+#pragma once
 #include <unordered_map>
 #include <cstdint>
 
-using namespace std;
-
 class Solution13 {
 public:
-  int romanToInt(string s) {
-    static unordered_map<char, int> romanMap {
+  int romanToInt(std::string s) {
+    static std::unordered_map<char, int> romanMap {
         {'I', 1},
         {'V', 5},
         {'X', 10},
