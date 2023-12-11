@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <leetcode/leetcode58.h>
+#include <top-interview-150/leetcode58.h>
 
 TEST(Leetcode58Test, case1) {
     std::string str {"Hello World"};
