@@ -12,10 +12,10 @@ TEST(Leetcode1464, case1) {
 }
 
 TEST(Leetcode1464, case2) {
-  Solution1464 s;
-  std::vector<int> input {1,5,4,5};
-  EXPECT_EQ(16, s.maxProduct(input));
+    Solution1464 s;
+    std::vector<int> input {1, 5, 4, 5};
+    EXPECT_EQ(16, s.maxProduct(input));
 
-  Solution1464_2 s2;
-  EXPECT_EQ(16, s2.maxProduct(input));
+    Solution1464_2 s2;
+    EXPECT_EQ(16, s2.maxProduct(input));
 }

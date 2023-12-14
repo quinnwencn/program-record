@@ -12,7 +12,7 @@ TEST(Leetocde26Test, case1) {
 }
 
 TEST(Leetcode26Test, case2) {
-    std::vector<int> input {0,0,1,1,1,2,2,3,3,4};
+    std::vector<int> input {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
     Solution26 s;
     EXPECT_EQ(5, s.removeDuplicates(input));
 }
