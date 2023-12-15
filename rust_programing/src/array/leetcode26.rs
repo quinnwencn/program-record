@@ -14,6 +14,12 @@ pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
     len as i32
 }
 
+/* The impressive solution using rust vec function */
+pub fn remove_duplicates2(nums: &mut Vec<i32>) -> i32 {
+    nums.dedup();
+    nums.len() as i32
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -22,17 +28,20 @@ mod tests {
     fn test_empty() {
         let mut nums = Vec::new();
         assert_eq!(0, remove_duplicates(&mut nums));
+        assert_eq!(0, remove_duplicates2(&mut nums));
     }
 
     #[test]
     fn normal_test() {
         let mut nums = vec![0,0,1,1,1,2,2,3,3,4];
         assert_eq!(5, remove_duplicates(&mut nums));
+        assert_eq!(5, remove_duplicates2(&mut nums));
     }
 
     #[test]
     fn expect_fail() {
         let mut nums = vec![1, 2, 3];
         assert_ne!(2, remove_duplicates(&mut nums));
+        assert_ne!(2, remove_duplicates2(&mut nums));
     }
 }
