@@ -3,7 +3,7 @@
 //
 #include <gtest/gtest.h>
 
-#include <array/leetcode26.h>
+#include "array/leetcode26.h"
 
 TEST(Leetocde26Test, case1) {
     std::vector<int> input {1, 1, 2};

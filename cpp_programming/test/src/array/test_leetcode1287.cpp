@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <array/leetcode1287.h>
+#include "array/leetcode1287.h"
 
 TEST(Leetcode1287Test, case1) {
     std::vector<int> input {1, 2, 2, 6, 6, 6, 6, 7, 10};

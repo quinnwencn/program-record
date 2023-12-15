@@ -3,7 +3,7 @@
 //
 #include <gtest/gtest.h>
 
-#include <array/leetcode1436.h>
+#include "array/leetcode1436.h"
 
 TEST(Leetcode1436Test, case1) {
     std::vector<std::vector<std::string>> paths {{"London", "New York"}, {"New York", "Lima"}, {"Lima", "Sao Paulo"}};

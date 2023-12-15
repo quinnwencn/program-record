@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <top-interview-150/leetcode14.h>
+#include "top-interview-150/leetcode14.h"
 
 TEST(Leetcode14Test, case1) {
     vector<string> strs {"flower", "flow", "flight"};

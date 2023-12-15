@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <array/leetcode1464.h>
+#include "array/leetcode1464.h"
 
 TEST(Leetcode1464, case1) {
     Solution1464 s;
