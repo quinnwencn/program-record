@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <array/leetcode1528.h>
+#include <array/leetcode1582.h>
 
 TEST(Leetcode1528Test, case1) {
     std::vector<std::vector<int>> mat {{1, 0, 0}, {0, 0, 1}, {1, 0, 0}};
