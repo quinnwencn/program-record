@@ -3,3 +3,4 @@
  */
 pub mod leetcode1464;
 pub mod leetcode26;
+mod leetcode1436;
