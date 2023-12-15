@@ -2,7 +2,7 @@
 #include <numeric>
 #include <vector>
 
-class Solution1528 {
+class Solution1582 {
 public:
     int numSpecial(std::vector<std::vector<int>>& mat) {
         int sum = 0;
