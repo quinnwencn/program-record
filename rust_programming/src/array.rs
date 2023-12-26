@@ -8,4 +8,5 @@ pub mod leetcode1582;
 pub mod leetcode1287;
 pub mod leetcode242;
 pub mod leetcode1;
-mod leetcode2965;
+pub mod leetcode2965;
+pub mod leetcode2956;
