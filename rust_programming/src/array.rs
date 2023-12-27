@@ -10,3 +10,4 @@ pub mod leetcode242;
 pub mod leetcode1;
 pub mod leetcode2965;
 pub mod leetcode2956;
+pub mod leetcode2951;
