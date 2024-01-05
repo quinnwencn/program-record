@@ -8,8 +8,8 @@ pub struct TreeNode {
   pub right: Option<Rc<RefCell<TreeNode>>>,
 }
 
+#[warn(dead_code)]
 impl TreeNode {
-  #[inline]
   pub fn new(val: i32) -> Self {
     TreeNode {
       val,
@@ -19,9 +19,11 @@ impl TreeNode {
   }
 }
 
+#[warn(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[warn(dead_code)]
     pub fn sorted_array_to_bst(nums: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
         if nums.is_empty() {
             return None;
@@ -29,6 +31,7 @@ impl Solution {
         Self::build_bst(&nums)
     }
 
+    #[warn(dead_code)]
     fn build_bst(nums: &[i32]) -> Option<Rc<RefCell<TreeNode>>> {
         if nums.is_empty() {
             return None;
@@ -41,16 +44,5 @@ impl Solution {
             left: Self::build_bst(left),
             right: Self::build_bst(right),
         })))
-    }
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_case1() {
-        // todo: how to write tests
-        assert_eq!(0, 0);
     }
 }
