@@ -19,7 +19,7 @@ pub fn third_max1(mut nums: Vec<i32>) -> i32 {
 pub fn third_max2(mut nums: Vec<i32>) -> i32 {
     nums.sort_unstable();
     nums.dedup();
-    if (nums.len() > 2) {
+    if nums.len() > 2 {
         return nums[nums.len() - 3];
     }
 
