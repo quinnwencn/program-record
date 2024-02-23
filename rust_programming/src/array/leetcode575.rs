@@ -1,4 +1,4 @@
-pub fn distribute_candies(mut candy_type: Vec<i32>) -> i32 {
+pub fn distribute_candies(candy_type: Vec<i32>) -> i32 {
     let mut visited = [false;200001];
     let mut count = 0;
     for candy in candy_type.iter() {

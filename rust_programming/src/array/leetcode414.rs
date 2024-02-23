@@ -1,7 +1,7 @@
 pub fn third_max1(mut nums: Vec<i32>) -> i32 {
     nums.sort_unstable();
     let mut i = nums.len() as i32 - 1;
-    let mut max = nums[i as usize];
+    let max = nums[i as usize];
     let mut second_max = nums[i as usize];
     let mut count = 3;
     while i >= 0 {
@@ -26,7 +26,7 @@ pub fn third_max2(mut nums: Vec<i32>) -> i32 {
     nums[nums.len() - 1]
 }
 
-#[cfg(tests)]
+#[cfg(test)]
 mod tests {
     use super::*;
 
