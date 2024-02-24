@@ -22,3 +22,4 @@ mod leetcode575;
 mod leetcode594;
 mod leetcode598;
 mod leetcode566;
+mod leetcode605;
