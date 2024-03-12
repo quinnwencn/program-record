@@ -27,3 +27,4 @@ mod leetcode628;
 mod leetcode643;
 mod leetcode645;
 mod leetcode661;
+mod leetcode674;
