@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <string>
 
-#include "top-interview-150/Leetcode13.h"
+#include <string/Leetcode13.h>
 
 TEST(Leetcode13, case1) {
     std::string roman {"III"};
