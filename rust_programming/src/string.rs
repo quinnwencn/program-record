@@ -3,3 +3,4 @@
  */
 mod leetcode13;
 mod leetcode20;
+mod leetcode67;
