@@ -17,3 +17,10 @@ TEST(Leetcode290Test, Testcase2) {
     Solution290 so;
     EXPECT_FALSE(so.wordPattern(pattern, s));
 }
+
+TEST(Leetcode290Test, Testcase3) {
+    string pattern {"abb"};
+    string s {"dog cat cat fish"};
+    Solution290 so;
+    EXPECT_FALSE(so.wordPattern(pattern, s));
+}
