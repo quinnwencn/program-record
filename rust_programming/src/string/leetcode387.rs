@@ -24,18 +24,18 @@ mod tests {
     #[test]
     fn testcase1() {
         let s = "leetcode".to_string();
-        assert_eq(first_uniq_char(s), 0);
+        assert_eq!(first_uniq_char(s), 0);
     }
 
     #[test]
     fn testcase2() {
         let s = "loveleetcode".to_string();
-        assert_eq(first_uniq_char(s), 2);
+        assert_eq!(first_uniq_char(s), 2);
     }
 
     #[test]
-    fn testcase2() {
+    fn testcase3() {
         let s = "lovelove".to_string();
-        assert_eq(first_uniq_char(s), -1);
+        assert_eq!(first_uniq_char(s), -1);
     }
 }
