@@ -11,5 +11,5 @@ TEST(Leetcode541Test, Testcase1) {
 TEST(Leetcode541Test, Testcase2) {
     std::string s {"abcdefg"};
     Solution541 so;
-    EXPECT_EQ(so.reverseStr(s, 8), "fedcbag");
+    EXPECT_EQ(so.reverseStr(s, 8), "gfedcba");
 }
