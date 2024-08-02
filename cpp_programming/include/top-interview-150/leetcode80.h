@@ -36,4 +36,19 @@ public:
     }
 };
 
+class Solution80_2 {
+public:
+    int removeDuplicates(std::vector<int>& nums) {
+        int i = 0;
+        for (auto val: nums) {
+            if (i == 0 || i == 1 || nums[i - 2] != val) {
+                nums[i] = val;
+                ++i;
+            }
+        }
+
+        return i;
+    }
+};
+
 #endif //CPPPROGRAMRECORD_LEETCODE80_H
