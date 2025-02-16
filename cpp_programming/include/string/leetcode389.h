@@ -1,6 +1,7 @@
 #pragma once
 #include <array>
 #include <string>
+#include <cstdint>
 
 class Solution389 {
 public:

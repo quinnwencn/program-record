@@ -4,6 +4,7 @@
 
 #pragma once
 #include <string>
+#include <algorithm>
 
 std::string addBinary(std::string a, std::string b) {
     int carry = 0;
